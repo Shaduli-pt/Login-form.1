@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="entry">
+    <h2>Add New Entry</h2>
+    <input type="text" id="newName" placeholder="Enter Name"><br><br>
+    <input type="number" id="age" placeholder="Enter Age"><br><br>
+    <input type="text" id="place" placeholder="Enter Place"><br><br>
+    <input type="email" id="email" placeholder="Enter Email"><br><br>
+    <input type="number" id="year" placeholder="Enter your gradution year"><br><br>
+    <button onclick="addRow()">Submit</button>
+    </div>
+
+    <h1>Data Management</h1>
+    <table id="dataTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Place</th>
+                <th>Email</th>
+                <th>Year of <br>graduation</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- <tr>
+                <td>0</td>
+                <td>jhon</td>
+                <td>xx</td>
+                <td>kondotty</td>
+                <td>example@gmail.com</td>
+                <td>xxxx</td>
+                <td>
+                    <button onclick="editRow(this)" class="editbtn">Edit</button>
+                    <button onclick="deleteRow(this)" class="deletebtn">Delete</button>
+                </td>
+            </tr> -->
+        </tbody>
+    </table>
+
+    
+
+    <script src="./main.js"></script>
+</body>
+</html>
